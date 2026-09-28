@@ -1,0 +1,90 @@
+/* Reset padrão de margens e espaçamentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Bloco principal de conteúdo */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+/* Título principal */
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #e50914;
+    padding-bottom: 10px;
+}
+
+/* Subtítulo da seção de momentos */
+h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-left: 4px solid #e50914;
+    padding-left: 12px;
+    text-transform: uppercase;
+}
+
+/* Cards contendo os eventos históricos */
+.event-card {
+    background-color: #242424;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #333333;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-3px);
+    border-color: #e50914;
+}
+
+/* Títulos de cada evento */
+h3 {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Parágrafos de texto */
+p {
+    margin-bottom: 15px;
+    color: #cccccc;
+    font-size: 1rem;
+}
+
+/* Estilização da imagem e container */
+.img-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #333333;
+}
